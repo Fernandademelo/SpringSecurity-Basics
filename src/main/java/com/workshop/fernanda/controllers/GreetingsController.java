@@ -1,4 +1,4 @@
-package com.workshop.fernanda;
+package com.workshop.fernanda.controllers;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,7 +17,6 @@ public class GreetingsController {
     public ResponseEntity<String> sayHello(){
         return ResponseEntity.ok("Hello! diz a API! :) ");
     }
-
 
     @GetMapping("/say-good-bye")
     public  ResponseEntity<String> sayGoodbye() {
