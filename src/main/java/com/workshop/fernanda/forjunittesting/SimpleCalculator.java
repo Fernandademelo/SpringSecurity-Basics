@@ -1,7 +1,7 @@
-package com.workshop.fernanda.controllers;
+package com.workshop.fernanda.forjunittesting;
 
 public class SimpleCalculator {
     public int add(int numberA, int numberB) {
-        return numberA - numberB;
+        return numberA + numberB;
     }
 }
