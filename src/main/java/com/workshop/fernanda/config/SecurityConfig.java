@@ -21,6 +21,8 @@ public class SecurityConfig {
                 .httpBasic();
         return http.build();
     }
- /* melhor segurança que o default do spring,
-             cria um pop-up de credenciais e nao o standart */
+            /* melhor segurança que o default do spring,
+            cria um pop-up de credenciais e nao o standart
+            @Order(SecurityProperties.BASIC_AUTH_ORDER)*/
+
 }
